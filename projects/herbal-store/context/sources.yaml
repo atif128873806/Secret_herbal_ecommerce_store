@@ -1,0 +1,57 @@
+version: 1
+sources:
+  - id: SRC-USER-001
+    type: user-instruction
+    path: CLIENT_BRIEF.md
+    roles: [explicit-requirement]
+    authority: user-approved
+    processing_status: processed
+    summary: New Laravel/PHP storefront branded Herbal based on supplied Figma design.
+    received_at: '2026-10-18'
+    extracted_items: [HERB-001, HERB-002, HERB-003, HERB-006, HERB-DEC-001, HERB-DEC-002]
+  - id: SRC-FIGMA-001
+    type: design-reference
+    url: https://www.figma.com/design/nIZCXv4YPQeyQ42gdLKGYP/
+    locator: Page 1, frames 1:6732 (Home Page), 1:9151 (ALL Products)
+    roles: [visual, structure, feature]
+    authority: user-approved-design
+    processing_status: processed
+    summary: Desktop storefront compositions, components, colors, type, and localizable image assets.
+    received_at: '2026-10-18'
+    extracted_items: [HERB-002, HERB-003, HERB-006]
+  - id: SRC-USER-002
+    type: user-instruction
+    path: CLIENT_BRIEF.md
+    roles: [explicit-requirement]
+    authority: user-approved
+    processing_status: processed
+    summary: Cart-only scope; no payment provider in this phase.
+    received_at: '2026-10-18'
+    extracted_items: [HERB-004, HERB-DEC-003]
+  - id: SRC-USER-003
+    type: user-instruction
+    path: CLIENT_BRIEF.md
+    roles: [explicit-requirement]
+    authority: user-approved
+    processing_status: processed
+    summary: Use Figma product information as labeled demo data until Herbal data is provided.
+    received_at: '2026-10-18'
+    extracted_items: [HERB-005, HERB-DEC-003]
+  - id: SRC-USER-004
+    type: user-instruction
+    path: context/CLIENT_BRIEF.md
+    roles: [explicit-requirement]
+    authority: user-approved
+    processing_status: processed
+    summary: Recreate the full Figma homepage in detail, include all homepage images, and add sliders, interactions, and easy navigation.
+    received_at: '2026-10-19'
+    extracted_items: [HERB-007]
+  - id: SRC-USER-005
+    type: user-instruction
+    path: brand/secret-herbals-logo-source.png
+    roles: [explicit-requirement, visual]
+    authority: user-approved
+    processing_status: processed
+    summary: User supplied the Secret Herbals logo and accepted the proposed forest/gold/sage/charcoal/warm-ivory palette; requested applying both to the storefront.
+    received_at: '2026-10-20'
+    extracted_items: [HERB-008, HERB-DEC-005]

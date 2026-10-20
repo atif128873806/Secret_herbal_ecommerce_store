@@ -1,0 +1,23 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "montserrat",
+        "createdAt": "2026-10-18T18:57:40.935Z",
+        "reason": "Project requirement HERB-002 and DESIGN.md specify Montserrat for fidelity to the approved Figma design."
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "resources/css/app.css"
+        ],
+        "createdAt": "2026-10-18T19:14:09.287Z",
+        "reason": "The current homepage uses full rounded outlines on product and category cards; the reported line is now a uniform demo disclaimer border, so no side-tab accent remains."
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+<?php
+
+// Review copy is transcribed from the supplied Figma frames for demo layout only.
+// Do not present these names, ratings, photos, or claims as Herbal customer data.
+return [
+    1 => ['date' => '12 hours ago', 'title' => 'best face wash', 'text' => 'Cleans skin while making skin super soft. It also gives a natural glow.', 'name' => 'Shaan Shayan', 'product' => 'Hajj & Umrah Essentials Kit'],
+    2 => ['date' => '12 hours ago', 'title' => 'it is recommended', 'text' => 'Fragrance free and handy.', 'name' => 'Shaan Shayan', 'product' => 'Maxdif Facewash'],
+    3 => ['date' => '4 days ago', 'title' => 'I absolutely love the skincare range', 'text' => 'I absolutely love the range of skincare and hair care products. Everything I have tried has been amazing and effective. I love the quality and packaging.', 'name' => 'Muhmmad Ali soomro', 'product' => 'Brightening Coffee Soap'],
+    4 => ['date' => '4 days ago', 'title' => 'Very nice', 'text' => 'I ordered kids sunscreen with freebies, samples and a voucher. After using it for a month, I totally love it as an adult.', 'name' => 'Ramisha', 'product' => 'Spectra Block Kids SPF50'],
+    5 => ['date' => '4 days ago', 'title' => 'Bestest', 'text' => 'I ordered this shampoo for the fourth time. I am in love with it. The coffee soap is also very good, and I loved the clay mask sample.', 'name' => 'Ramisha', 'product' => 'Anagrow Shampoo'],
+    6 => ['date' => '4 days ago', 'title' => 'Good for body dullness', 'text' => 'Good for body dullness.', 'name' => 'Sumayya', 'product' => 'Brightening Coffee Soap'],
+    7 => ['date' => '4 days ago', 'title' => 'Amazing face wash 😍', 'text' => 'This has significantly reduced my acne.', 'name' => 'Sumayya', 'product' => 'Clarevo Salicylic Acid Facewash'],
+    8 => ['date' => '5 days ago', 'title' => 'Absolutely loving these products', 'text' => 'Everything I have tried has been amazing and effective. I love the quality and packaging and definitely recommend the range.', 'name' => 'Ali shah', 'product' => 'Spectra Block Aqua Fluid Sunscreen SPF 60 PA+++'],
+    9 => ['date' => '5 days ago', 'title' => 'Happy with my experience', 'text' => 'I ordered a moisturizer, face wash and coffee soap. The products arrived with samples, and I am happy with my experience.', 'name' => 'Meenal', 'product' => 'Maxdif Facewash'],
+    10 => ['date' => '5 days ago', 'title' => 'Noticed an improvement', 'text' => 'This is my third time ordering the shampoo. I have already noticed an improvement in my hair.', 'name' => 'Mrs Faisal Hameed', 'product' => 'ZERO HAIRFALL DUO'],
+    11 => ['date' => '5 days ago', 'title' => 'Best products', 'text' => 'I have been using this for two years. I love these products.', 'name' => 'Nadia', 'product' => 'Dermive Oil Free Moisturizer'],
+    12 => ['date' => '5 days ago', 'title' => 'It works good 👍', 'text' => 'This mask is one of the good quality products that I have used.', 'name' => 'Beenish', 'product' => 'Brightening Pink Clay Mask'],
+    13 => ['date' => '6 days ago', 'title' => 'Nourishing hair mask', 'text' => 'I tried this hair mask sample. Its texture was excellent and the scent was lovely.', 'name' => 'Ruman Tariq', 'product' => '32 Day Hair Growth Challenge Bundle'],
+    14 => ['date' => '6 days ago', 'title' => 'Mandelic serum', 'text' => 'I have used these products for two years and trust them. They have made a big difference to my skin.', 'name' => 'Jatin', 'product' => 'Dermive Oil-Free Fragrance Free Moisturizer'],
+    15 => ['date' => '6 days ago', 'title' => 'Pink clay mask', 'text' => 'The creamy texture gives amazing results and removes bumps from my chin. Highly recommended.', 'name' => 'Aleena Saleem', 'product' => 'Brightening Pink Clay Mask'],
+    16 => ['date' => 'Last week', 'title' => 'Pink Clay Mask', 'text' => 'The texture is creamy and smooth, easy to apply. I am obsessed with the result; it really removed bumps on my chin.', 'name' => 'Aleena Saleem', 'product' => 'Brightening Pink Clay Mask'],
+    17 => ['date' => 'Last week', 'title' => 'Really good', 'text' => 'It worked really well on my oily to normal skin, even though I have acne. This is my third order and I recommend it.', 'name' => 'Anonymous', 'product' => 'Dermive Oil Free Moisturizer'],
+    18 => ['date' => 'Last week', 'title' => 'Moisturising face wash', 'text' => 'This face wash cleanses well without damaging my skin barrier. My skin became smooth after pairing it with the moisturizer.', 'name' => 'Anonymous', 'product' => 'Dermive Moisturizing Wash'],
+    19 => ['date' => 'Last week', 'title' => 'This product is so amazing 🥰', 'text' => 'I got good results and my acne improved. The face wash is suitable too; the combination works well for me.', 'name' => 'Muhammad Saeed', 'product' => 'MandelAC Serum'],
+    20 => ['date' => 'Last week', 'title' => 'Anagrow shampoo ❣️', 'text' => 'I have used this shampoo for two years and have had a very good experience with the results.', 'name' => 'M shafaqat', 'product' => 'Anagrow Shampoo'],
+    21 => ['date' => 'Last week', 'title' => 'Anagrow rosemary hair oil 😘', 'text' => 'I have used this rosemary hair oil for two months and noticed new hair growth. Excellent results.', 'name' => 'M shafaqat', 'product' => 'Anagrow Rosemary Hair Oil'],
+    22 => ['date' => 'Last week', 'title' => 'Sunblock SPF60', 'text' => 'I ordered two sunblocks and noticed a great difference. I will order this product again.', 'name' => 'Qasim', 'product' => 'Spectra Block SPF60'],
+    23 => ['date' => 'Last week', 'title' => 'Same aye 🥰', 'text' => 'Same aye.', 'name' => 'Aima khan', 'product' => 'Dermive Oil Free Moisturizer'],
+    24 => ['date' => 'Last week', 'title' => 'A lovely delivery experience', 'text' => 'My order arrived in three days. The packing was secure, and the delivery rider was polite.', 'name' => 'Haya Fatima', 'product' => 'MandelAC Facewash'],
+    25 => ['date' => 'Last week', 'title' => 'Awesome', 'text' => 'This sunscreen is very good for my sensitive skin. My sister and I have had an awesome result with it.', 'name' => 'MAHNOOR', 'product' => 'Spectra Block Kids SPF50'],
+    26 => ['date' => 'Last week', 'title' => 'Besttt besttt products', 'text' => 'Thank you.', 'name' => 'Minha shaikh', 'product' => 'Maxdif Brightening Moisturizer'],
+    27 => ['date' => 'Last week', 'title' => 'Anagrow serum and shampoo', 'text' => 'After twenty days of use, the serum is the best. Hair growth has not started yet.', 'name' => 'Ansa', 'product' => 'ZERO HAIRFALL DUO'],
+    28 => ['date' => 'Last week', 'title' => 'My hair is finally happy', 'text' => 'This shampoo suited my hair well and I recommend it. I would like a larger quantity.', 'name' => 'Ji', 'product' => 'Anagrow Shampoo'],
+    29 => ['date' => 'Last week', 'title' => 'The oil suited my hair well', 'text' => 'I tried many oils before and this one suited my hair. I noticed new baby hair growth after using one bottle.', 'name' => 'Ji', 'product' => 'Anagrow Rosemary Hair Oil'],
+    30 => ['date' => 'Last week', 'title' => 'Dermive oil free moisturizer and coffee', 'text' => 'My order arrived today. Packing was 10/10, and I received sample gifts with it. I will share feedback after using it.', 'name' => 'Jaweria Shakoor', 'product' => 'Dermive Oil Free Moisturizer'],
+];

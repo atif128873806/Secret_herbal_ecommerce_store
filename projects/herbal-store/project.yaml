@@ -1,0 +1,48 @@
+version: 1
+id: herbal-store
+name: Herbal Store
+status: implementation
+description: New Laravel storefront based on the supplied Figma design.
+repository:
+  path: .
+stack:
+  frontend:
+  - Blade
+  - CSS
+  - JavaScript
+  backend:
+  - Laravel 13
+  - PHP 8.5
+  database:
+  - SQLite for local development
+  infrastructure: []
+default_skills:
+- laravel-architecture
+- laravel-backend
+- laravel-best-practices
+- frontend-ui-ux
+- web-design-guidelines
+- qa-review
+tools:
+  filesystem: true
+  terminal: true
+  git: true
+  browser: true
+  web: true
+  github: false
+  deployment: false
+verification:
+- php artisan test
+- npm run build
+docs:
+  overview: PROJECT.md
+  rules: AGENTS.md
+  requirements: REQUIREMENTS.md
+  architecture: ARCHITECTURE.md
+  design: DESIGN.md
+  decisions: DECISIONS.md
+  tasks: TASKS.md
+  context_index: context/CONTEXT_INDEX.md
+  client_brief: context/CLIENT_BRIEF.md
+  sources: context/sources.yaml
+  handoff: memory/HANDOFF.md
